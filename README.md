@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+````markdown
+# React DataTable Example
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple example application that demonstrates how to use the `react-data-table-component` library to create a table with selectable rows. The app allows you to select rows in the table and navigate to different components to either cancel or create something based on the selected rows.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+1. Clone the repository:
 
-### `npm start`
+   ```sh
+   git clone https://github.com/prajulaaditya007/datatableproperties.git
+   ```
+````
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Navigate to the project directory:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   ```sh
+   cd datatableproperties
+   ```
 
-### `npm test`
+3. Install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```sh
+   npm install
+   ```
 
-### `npm run build`
+4. Start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```sh
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Open your browser and go to `http://localhost:3000` to see the app in action.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Selectable rows using `react-data-table-component`.
+- Navigation between different components using `react-router-dom`.
+- Display selected rows in the `Cancel` and `Create` components.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Components
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Selection**: Displays a table with selectable rows. Provides "Cancel" and "Create" buttons to navigate to the respective components.
+- **Cancel**: Displays the selected rows in a table. Simulates a "cancel" action based on the selected rows.
+- **Create**: Displays the selected rows in a table. Simulates a "create" action based on the selected rows.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Dependencies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React
+- react-data-table-component
+- react-router-dom
